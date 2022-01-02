@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #52493f; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+
+header {
+  width: 100%;
+  background: #f6f5f3; }
+  header .inner {
+    width: 1200px;
+    height: 100px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header .inner h1 a {
+      font: bold 24px/1 "arial";
+      color: #333; }
+    header .inner #gnb {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%); }
+      header .inner #gnb li {
+        float: left; }
+        header .inner #gnb li a {
+          display: inline-block;
+          padding: 22px 30px;
+          font: 14px/1 "arial";
+          color: #333; }
+    header .inner #util {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%); }
+      header .inner #util li {
+        float: left; }
+        header .inner #util li a {
+          display: inline-block;
+          padding: 22px 30px;
+          font: 14px/1 "arial";
+          color: #333; }
+
+main {
+  width: 100%;
+  padding: 80px 0; }
+  main .inner {
+    width: 1200px;
+    margin: 0 auto; }
+
+footer {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  padding: 50px 0px;
+  background: #333; }
+  footer .inner {
+    width: 1200px;
+    margin: 0px auto; }
+
+@media screen and (max-width: 1179px) {
+  header .inner {
+    width: 100%; }
+    header .inner h1 {
+      left: 3vw; }
+    header .inner #gnb {
+      display: none; }
+
+  main {
+    padding: 80px 40px; }
+    main .inner {
+      width: 100%; }
+
+  footer .inner {
+    width: 100%; } }
+#visual {
+  width: 100%;
+  height: 500px;
+  background: #333; }
+  #visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.gallery {
+  background: #262615; }
+  .gallery .inner h1 {
+    display: none; }
+  .gallery .inner > section::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .gallery .inner > section article {
+    width: 25%;
+    float: left;
+    padding: 10px; }
+    .gallery .inner > section article > .inner {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 30px; }
+      .gallery .inner > section article > .inner .pic {
+        width: 100%;
+        height: 180px;
+        margin-bottom: 15px; }
+        .gallery .inner > section article > .inner .pic img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+      .gallery .inner > section article > .inner span {
+        display: block;
+        font: 13px/1 'arial';
+        color: #fff;
+        margin-bottom: 10px; }
+      .gallery .inner > section article > .inner h2 {
+        font: 15px/1.5 'arial';
+        color: #fff;
+        margin-bottom: 10px; }
+      .gallery .inner > section article > .inner p {
+        font: 13px/1.5 'arial'; }
+  .gallery .pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5vw; }
+    .gallery .pop img {
+      width: 100%;
+      height: 90%;
+      margin-bottom: 15px;
+      object-fit: contain; }
+    .gallery .pop p {
+      font: 14px/1.2 'arial';
+      color: #fff;
+      text-align: center; }
+    .gallery .pop span {
+      font: bold 14px/1 'arial';
+      color: #fff;
+      position: absolute;
+      top: 3vw;
+      right: 5vw; }
+
+.youtube {
+  padding-top: 150px;
+  background: #f6f5f3; }
+  .youtube .inner {
+    width: 100%; }
+    .youtube .inner h1 {
+      font: bold 32px/1 'arial';
+      color: #52493f;
+      text-align: center;
+      margin-bottom: 20px; }
+    .youtube .inner p {
+      font: 24px/1 'arial';
+      color: #52493f;
+      text-align: center;
+      margin-bottom: 150px; }
+    .youtube .inner #instruction_first_section {
+      width: 100%;
+      background: #262613;
+      padding: 60px 0; }
+      .youtube .inner #instruction_first_section .inner {
+        width: 1200px;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .youtube .inner #instruction_first_section .inner .pic {
+          width: 40%;
+          height: 100%; }
+          .youtube .inner #instruction_first_section .inner .pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+        .youtube .inner #instruction_first_section .inner .txt {
+          width: 60%;
+          padding: 140px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .youtube .inner #instruction_first_section .inner .txt h2 {
+            font: bold 32px/1 'arial';
+            color: #fff;
+            margin-bottom: 30px; }
+          .youtube .inner #instruction_first_section .inner .txt p {
+            font: 15px/1.5 'arial';
+            color: #fff;
+            margin-bottom: 30px;
+            text-align: left; }
+          .youtube .inner #instruction_first_section .inner .txt a {
+            display: inline-block;
+            border: none;
+            border-radius: 2px;
+            background: #fff;
+            width: 100px;
+            height: 38px;
+            font: 14px/38px 'arial';
+            text-align: center; }
+    .youtube .inner #instructions_section {
+      width: 100%; }
+      .youtube .inner #instructions_section article {
+        width: 100%; }
+        .youtube .inner #instructions_section article .inner {
+          width: 1200px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding: 65px 0; }
+          .youtube .inner #instructions_section article .inner .txt {
+            width: 50%;
+            border-top: 1px solid #262613;
+            padding-top: 30px; }
+            .youtube .inner #instructions_section article .inner .txt h2 {
+              font: bold 32px/1 'arial';
+              color: #52493f;
+              margin-bottom: 50px; }
+            .youtube .inner #instructions_section article .inner .txt .p_box {
+              width: 100%;
+              display: flex; }
+              .youtube .inner #instructions_section article .inner .txt .p_box p {
+                width: 50%;
+                height: 300px;
+                font: 15px/1.5 'arial';
+                color: #52493f;
+                margin-bottom: 30px;
+                text-align: left;
+                padding-right: 40px; }
+                .youtube .inner #instructions_section article .inner .txt .p_box p span {
+                  font: bold 15px/1 'arial';
+                  display: block;
+                  color: #52493f;
+                  margin-bottom: 15px; }
+            .youtube .inner #instructions_section article .inner .txt a {
+              display: inline-block;
+              border: none;
+              border-radius: 2px;
+              background: #fff;
+              width: 100px;
+              height: 38px;
+              font: 14px/38px 'arial';
+              text-align: center; }
+          .youtube .inner #instructions_section article .inner .pic {
+            width: 40%; }
+            .youtube .inner #instructions_section article .inner .pic img {
+              width: 100%;
+              height: 480px;
+              object-fit: cover; }
+        .youtube .inner #instructions_section article:nth-of-type(2) .inner .txt {
+          order: 1; }
+    .youtube .inner .pop {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 5vw; }
+      .youtube .inner .pop iframe {
+        border: none;
+        width: 100%;
+        height: 100%; }
+      .youtube .inner .pop span {
+        position: absolute;
+        top: 3vw;
+        right: 5vw;
+        font: bold 14px/1 'arial';
+        color: #fff;
+        cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
