@@ -20,7 +20,7 @@ function Product(){
   },[]);
 
   return(
-    <main className="gallery">
+    <main className="product">
       <div className="inner">
         <h1><a href="#">Product</a></h1>
         <section>

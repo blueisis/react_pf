@@ -23,7 +23,7 @@ function Guide(){
   },[]);
 
   return(
-    <main className="youtube">
+    <main className="guide">
       <div className="inner">
         <h1>Guide</h1>
         <p>a quick guide to using your body products.</p>

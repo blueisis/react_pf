@@ -54,16 +54,15 @@ main {
   width: 100%;
   padding: 80px 0; }
   main .inner {
-    width: 1200px;
+    width: 1180px;
     margin: 0 auto; }
 
 footer {
   width: 100%;
-  border-top: 1px solid #ddd;
-  padding: 50px 0px;
-  background: #333; }
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 50px 0px; }
   footer .inner {
-    width: 1200px;
+    width: 1180px;
     margin: 0px auto; }
 
 @media screen and (max-width: 1179px) {
@@ -90,42 +89,42 @@ footer {
     height: 100%;
     object-fit: cover; }
 
-.gallery {
+.product {
   background: #262615; }
-  .gallery .inner h1 {
+  .product .inner h1 {
     display: none; }
-  .gallery .inner > section::after {
+  .product .inner > section::after {
     content: '';
     display: block;
     clear: both; }
-  .gallery .inner > section article {
+  .product .inner > section article {
     width: 25%;
     float: left;
     padding: 10px; }
-    .gallery .inner > section article > .inner {
+    .product .inner > section article > .inner {
       width: 100%;
       height: 100%;
       padding-bottom: 30px; }
-      .gallery .inner > section article > .inner .pic {
+      .product .inner > section article > .inner .pic {
         width: 100%;
         height: 180px;
         margin-bottom: 15px; }
-        .gallery .inner > section article > .inner .pic img {
+        .product .inner > section article > .inner .pic img {
           width: 100%;
           height: 100%;
           object-fit: cover; }
-      .gallery .inner > section article > .inner span {
+      .product .inner > section article > .inner span {
         display: block;
         font: 13px/1 'arial';
         color: #fff;
         margin-bottom: 10px; }
-      .gallery .inner > section article > .inner h2 {
+      .product .inner > section article > .inner h2 {
         font: 15px/1.5 'arial';
         color: #fff;
         margin-bottom: 10px; }
-      .gallery .inner > section article > .inner p {
+      .product .inner > section article > .inner p {
         font: 13px/1.5 'arial'; }
-  .gallery .pop {
+  .product .pop {
     position: fixed;
     top: 0;
     left: 0;
@@ -133,71 +132,71 @@ footer {
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
     padding: 5vw; }
-    .gallery .pop img {
+    .product .pop img {
       width: 100%;
       height: 90%;
       margin-bottom: 15px;
       object-fit: contain; }
-    .gallery .pop p {
+    .product .pop p {
       font: 14px/1.2 'arial';
       color: #fff;
       text-align: center; }
-    .gallery .pop span {
+    .product .pop span {
       font: bold 14px/1 'arial';
       color: #fff;
       position: absolute;
       top: 3vw;
       right: 5vw; }
 
-.youtube {
+.guide {
   padding-top: 150px;
   background: #f6f5f3; }
-  .youtube .inner {
+  .guide .inner {
     width: 100%; }
-    .youtube .inner h1 {
+    .guide .inner h1 {
       font: bold 32px/1 'arial';
       color: #52493f;
       text-align: center;
       margin-bottom: 20px; }
-    .youtube .inner p {
+    .guide .inner p {
       font: 24px/1 'arial';
       color: #52493f;
       text-align: center;
       margin-bottom: 150px; }
-    .youtube .inner #instruction_first_section {
+    .guide .inner #instruction_first_section {
       width: 100%;
       background: #262613;
       padding: 60px 0; }
-      .youtube .inner #instruction_first_section .inner {
-        width: 1200px;
+      .guide .inner #instruction_first_section .inner {
+        width: 1180px;
         height: 80vh;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap; }
-        .youtube .inner #instruction_first_section .inner .pic {
+        .guide .inner #instruction_first_section .inner .pic {
           width: 40%;
           height: 100%; }
-          .youtube .inner #instruction_first_section .inner .pic img {
+          .guide .inner #instruction_first_section .inner .pic img {
             width: 100%;
             height: 100%;
             object-fit: cover; }
-        .youtube .inner #instruction_first_section .inner .txt {
+        .guide .inner #instruction_first_section .inner .txt {
           width: 60%;
           padding: 140px;
           display: flex;
           flex-direction: column;
           justify-content: center; }
-          .youtube .inner #instruction_first_section .inner .txt h2 {
+          .guide .inner #instruction_first_section .inner .txt h2 {
             font: bold 32px/1 'arial';
             color: #fff;
             margin-bottom: 30px; }
-          .youtube .inner #instruction_first_section .inner .txt p {
+          .guide .inner #instruction_first_section .inner .txt p {
             font: 15px/1.5 'arial';
             color: #fff;
             margin-bottom: 30px;
             text-align: left; }
-          .youtube .inner #instruction_first_section .inner .txt a {
+          .guide .inner #instruction_first_section .inner .txt a {
             display: inline-block;
             border: none;
             border-radius: 2px;
@@ -206,28 +205,28 @@ footer {
             height: 38px;
             font: 14px/38px 'arial';
             text-align: center; }
-    .youtube .inner #instructions_section {
+    .guide .inner #instructions_section {
       width: 100%; }
-      .youtube .inner #instructions_section article {
+      .guide .inner #instructions_section article {
         width: 100%; }
-        .youtube .inner #instructions_section article .inner {
-          width: 1200px;
+        .guide .inner #instructions_section article .inner {
+          width: 1180px;
           display: flex;
           justify-content: space-between;
           flex-wrap: wrap;
           padding: 65px 0; }
-          .youtube .inner #instructions_section article .inner .txt {
+          .guide .inner #instructions_section article .inner .txt {
             width: 50%;
             border-top: 1px solid #262613;
             padding-top: 30px; }
-            .youtube .inner #instructions_section article .inner .txt h2 {
+            .guide .inner #instructions_section article .inner .txt h2 {
               font: bold 32px/1 'arial';
               color: #52493f;
               margin-bottom: 50px; }
-            .youtube .inner #instructions_section article .inner .txt .p_box {
+            .guide .inner #instructions_section article .inner .txt .p_box {
               width: 100%;
               display: flex; }
-              .youtube .inner #instructions_section article .inner .txt .p_box p {
+              .guide .inner #instructions_section article .inner .txt .p_box p {
                 width: 50%;
                 height: 300px;
                 font: 15px/1.5 'arial';
@@ -235,12 +234,12 @@ footer {
                 margin-bottom: 30px;
                 text-align: left;
                 padding-right: 40px; }
-                .youtube .inner #instructions_section article .inner .txt .p_box p span {
+                .guide .inner #instructions_section article .inner .txt .p_box p span {
                   font: bold 15px/1 'arial';
                   display: block;
                   color: #52493f;
                   margin-bottom: 15px; }
-            .youtube .inner #instructions_section article .inner .txt a {
+            .guide .inner #instructions_section article .inner .txt a {
               display: inline-block;
               border: none;
               border-radius: 2px;
@@ -249,15 +248,15 @@ footer {
               height: 38px;
               font: 14px/38px 'arial';
               text-align: center; }
-          .youtube .inner #instructions_section article .inner .pic {
+          .guide .inner #instructions_section article .inner .pic {
             width: 40%; }
-            .youtube .inner #instructions_section article .inner .pic img {
+            .guide .inner #instructions_section article .inner .pic img {
               width: 100%;
               height: 480px;
               object-fit: cover; }
-        .youtube .inner #instructions_section article:nth-of-type(2) .inner .txt {
+        .guide .inner #instructions_section article:nth-of-type(2) .inner .txt {
           order: 1; }
-    .youtube .inner .pop {
+    .guide .inner .pop {
       width: 100%;
       height: 100%;
       position: fixed;
@@ -265,11 +264,11 @@ footer {
       left: 0;
       background: rgba(0, 0, 0, 0.8);
       padding: 5vw; }
-      .youtube .inner .pop iframe {
+      .guide .inner .pop iframe {
         border: none;
         width: 100%;
         height: 100%; }
-      .youtube .inner .pop span {
+      .guide .inner .pop span {
         position: absolute;
         top: 3vw;
         right: 5vw;
