@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Work+Sans:wght@300;400;500&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -54,8 +55,7 @@ main {
   width: 100%;
   padding: 80px 0; }
   main .inner {
-    width: 1180px;
-    margin: 0 auto; }
+    width: 100%; }
 
 footer {
   width: 100%;
@@ -65,21 +65,6 @@ footer {
     width: 1180px;
     margin: 0px auto; }
 
-@media screen and (max-width: 1179px) {
-  header .inner {
-    width: 100%; }
-    header .inner h1 {
-      left: 3vw; }
-    header .inner #gnb {
-      display: none; }
-
-  main {
-    padding: 80px 40px; }
-    main .inner {
-      width: 100%; }
-
-  footer .inner {
-    width: 100%; } }
 #visual {
   width: 100%;
   height: 500px;
@@ -154,21 +139,21 @@ footer {
   .guide .inner {
     width: 100%; }
     .guide .inner h1 {
-      font: bold 32px/1 'arial';
+      font: bold 35px/1 'DM Sans';
       color: #52493f;
       text-align: center;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .guide .inner p {
-      font: 24px/1 'arial';
+      font: 24px/1 'DM Sans';
       color: #52493f;
       text-align: center;
       margin-bottom: 150px; }
     .guide .inner #instruction_first_section {
       width: 100%;
       background: #262613;
-      padding: 60px 0; }
+      padding: 5%; }
       .guide .inner #instruction_first_section .inner {
-        width: 1180px;
+        width: 100%;
         height: 80vh;
         margin: 0 auto;
         display: flex;
@@ -188,11 +173,12 @@ footer {
           flex-direction: column;
           justify-content: center; }
           .guide .inner #instruction_first_section .inner .txt h2 {
-            font: bold 32px/1 'arial';
+            font: bold 32px/1 'DM Sans';
             color: #fff;
-            margin-bottom: 30px; }
+            margin-bottom: 30px;
+            letter-spacing: 1px; }
           .guide .inner #instruction_first_section .inner .txt p {
-            font: 15px/1.5 'arial';
+            font: 15px/1.5 'DM Sans';
             color: #fff;
             margin-bottom: 30px;
             text-align: left; }
@@ -208,46 +194,48 @@ footer {
     .guide .inner #instructions_section {
       width: 100%; }
       .guide .inner #instructions_section article {
-        width: 100%; }
+        width: 100%;
+        padding: 5%; }
         .guide .inner #instructions_section article .inner {
-          width: 1180px;
+          width: 100%;
           display: flex;
           justify-content: space-between;
-          flex-wrap: wrap;
-          padding: 65px 0; }
+          flex-wrap: wrap; }
           .guide .inner #instructions_section article .inner .txt {
             width: 50%;
             border-top: 1px solid #262613;
-            padding-top: 30px; }
+            padding: 30px 50px 0 0; }
             .guide .inner #instructions_section article .inner .txt h2 {
               font: bold 32px/1 'arial';
               color: #52493f;
               margin-bottom: 50px; }
-            .guide .inner #instructions_section article .inner .txt .p_box {
+            .guide .inner #instructions_section article .inner .txt .wrapper {
               width: 100%;
-              display: flex; }
-              .guide .inner #instructions_section article .inner .txt .p_box p {
-                width: 50%;
-                height: 300px;
-                font: 15px/1.5 'arial';
-                color: #52493f;
-                margin-bottom: 30px;
-                text-align: left;
-                padding-right: 40px; }
-                .guide .inner #instructions_section article .inner .txt .p_box p span {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+              justify-content: space-between; }
+              .guide .inner #instructions_section article .inner .txt .wrapper .con {
+                width: 45%; }
+                .guide .inner #instructions_section article .inner .txt .wrapper .con h3 {
+                  width: 100%;
                   font: bold 15px/1 'arial';
-                  display: block;
                   color: #52493f;
                   margin-bottom: 15px; }
-            .guide .inner #instructions_section article .inner .txt a {
-              display: inline-block;
-              border: none;
-              border-radius: 2px;
-              background: #fff;
-              width: 100px;
-              height: 38px;
-              font: 14px/38px 'arial';
-              text-align: center; }
+                .guide .inner #instructions_section article .inner .txt .wrapper .con p {
+                  font: 15px/1.5 'arial';
+                  color: #52493f;
+                  margin-bottom: 15px;
+                  text-align: left; }
+                .guide .inner #instructions_section article .inner .txt .wrapper .con a {
+                  display: inline-block;
+                  border: none;
+                  border-radius: 2px;
+                  background: #fff;
+                  width: 100px;
+                  height: 38px;
+                  font: 14px/38px 'arial';
+                  text-align: center; }
           .guide .inner #instructions_section article .inner .pic {
             width: 40%; }
             .guide .inner #instructions_section article .inner .pic img {
