@@ -264,4 +264,61 @@ footer {
         color: #fff;
         cursor: pointer; }
 
+#help .inner {
+  width: 60%;
+  margin: 0 auto; }
+  #help .inner .inputBox {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #aaa; }
+    #help .inner .inputBox input {
+      width: 60%;
+      padding: 5px 10px;
+      border: 1px solid #bbb;
+      margin-bottom: 10px; }
+    #help .inner .inputBox textarea {
+      width: 60%;
+      padding: 10px;
+      border: 1px solid #bbb;
+      margin-bottom: 15px;
+      resize: none; }
+    #help .inner .inputBox button {
+      width: 150px;
+      height: 30px;
+      background: #555;
+      border: none;
+      color: #fff;
+      margin-right: 10px; }
+  #help .inner .showBox {
+    width: 100%;
+    padding: 50px;
+    border: 1px solid #aaa; }
+    #help .inner .showBox article {
+      width: 100%;
+      padding: 20px;
+      background: #fff;
+      margin-bottom: 20px;
+      border: 1px solid #aaa;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
+      #help .inner .showBox article .post h2 {
+        font: bold 20px/1 'arial';
+        color: #555;
+        margin-bottom: 5px; }
+      #help .inner .showBox article .post p {
+        font: 12px/1.2 'arial';
+        color: #777; }
+      #help .inner .showBox article .btns {
+        display: flex; }
+        #help .inner .showBox article .btns::after {
+          content: '';
+          display: block;
+          clear: both; }
+        #help .inner .showBox article .btns li {
+          padding: 0 5px;
+          display: inline-block;
+          cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
